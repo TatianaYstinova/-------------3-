@@ -1,0 +1,135 @@
+  .first-screen-container {
+  position: relative;
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  height: 750px;
+}
+
+.text-of-company-and-types-of-services-container {
+  position: relative;
+  width: 1296px;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.info-text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 336px;
+  margin-top: 180px;
+  left: 125px;
+}
+
+.header-text {
+  position: relative;
+  height: 140px;
+  color: rgb(255, 255, 255);
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 70px;
+  width: 526px;
+}
+
+.subheading-text {
+  height: 66px;
+  color: rgb(255, 255, 255);
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  margin-top: 30px;
+  width: 322px;
+}
+
+.about-company-button {
+  background-image: url("./img/Group 7.png");
+  width: 159px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: right 15px top 45%;
+  background-color: rgba(28, 28, 28, 0);
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.about-company-button:hover {
+  background-color: rgba(3, 74, 74, 0.5411764706);
+}
+
+.text-of-button {
+  width: 114px;
+  height: 22px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22.4px;
+  background-color: rgba(245, 231, 231, 0);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.types-services-container {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  -o-object-fit: cover;
+     object-fit: cover;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  left: 134px;
+}
+
+.frame-content {
+  position: relative;
+  border-radius: 20px;
+  background-color: rgb(93, 183, 222);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 306px;
+  height: 250px;
+}
+
+.shipment {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  width: 306px;
+  height: 198px;
+}
+
+.text-of-frame-content {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  bottom: 0;
+  left: 50%;
+  text-align: center;
+  width: 100%;
+  background: rgb(33, 31, 31);
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  line-height: 26.6px;
+  position: absolute;
+  transform: translateX(-50%);
+  height: 52px;
+}/*# sourceMappingURL=firstScreen.css.map */

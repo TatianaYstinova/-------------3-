@@ -1,0 +1,87 @@
+
+
+$main-fill-color: #fff;
+$main-color-text: rgba(51, 51, 51, 1);
+$font-color-of-pictures: rgba(255, 255, 255, 1);
+$main-font: "PT Sans", sans-serif;
+$fram-color-service: rgba(93, 183, 222, 1);
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.apex {
+    display: flex;
+    justify-content: center;
+}
+
+.info-container {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1296px;
+}
+
+.burger-menu-button {
+    display: none !important;
+}
+
+.logo {
+    position: relative;
+}
+
+.menu-navigation {
+    display: flex;
+    position: relative;
+    gap: 75px;
+}
+
+.enumeration-menu-navigation {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    text-decoration: none;
+    color: $main-color-text;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+.enumeration-menu-navigation:hover {
+    background-color: darken($color: #09dddd8a, $amount: 30%);
+}
+
+.input-with-icon {
+    background: url('./assets/img/ic_round-search.png') no-repeat;
+    width: 194px;
+    height: 24px;
+    gap: 20px;
+    border: none;
+}
+
+
+
+.language {
+    width: 40px;
+    height: 22px;
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22.4px;
+    border: none;
+    color: $main-color-text;
+    // удаляет стрелку
+    appearance: none;
+    //новая картинка для стрелки
+    background-image: url("./img/material-symbols_keyboard-arrow-down-rounded.png");
+    background-repeat: no-repeat;
+    background-position: right 0px top 50%;
+}
