@@ -8,11 +8,14 @@ interface NewsCardParametrs{
 }
 export function NewsCards(parametrs:NewsCardParametrs){
     return(
-        <div className="news-card-container">
+        <>
+        <div className='new-card'>
             <img  className='img-news'src={parametrs.picture}/>
-            <div className='img-news'>{parametrs.data}</div>
+            <div className='news-date'>{parametrs.data}</div>
             <div className="header-news">{parametrs.headerNews}</div>
             <div className="description-news">{parametrs.descriptionNews}</div>
         </div>
+        </>
+        
     )
 }

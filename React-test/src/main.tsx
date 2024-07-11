@@ -6,6 +6,7 @@ import FirstScreenComponent from './firstScreen.tsx'
 import ServiceDiscriptionComponent from './serviceDescription.tsx'
 import CompanyInfoComponent from './CompanyInfo.tsx'
 import NewsComnonent from './news.tsx'
+import FooterComponent from  './Footer.tsx'
 
 import './websiteCap.css'
 
@@ -16,5 +17,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <ServiceDiscriptionComponent/>
     <CompanyInfoComponent/>
     <NewsComnonent/>
+    <FooterComponent/>
   </React.StrictMode>,
 )

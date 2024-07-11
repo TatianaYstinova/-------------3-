@@ -45,7 +45,9 @@ function NewsComponent() {
             <div className="header-company-news-container">Новости</div>
             <a className="all-news-button" href="">все новости</a>
           </div>
+          <div className='new-card-container'>
           {newCards.map((card)=><NewsCards picture={card.picture} data={card.data} headerNews={card.headerNews} descriptionNews={card.descriptionNews}/>)}
+          </div>
         </div>
       </div>
     </>

@@ -1,12 +1,9 @@
 @import './companyInfo.scss';
 
-.news-container {
-    position: relative;
-    width: 100%;
-    display: flex;
-}
+
 
 .description-of-company-news-container {
+    width: 1296px;
     position: relative;
     flex-direction: column;
     display: flex;
@@ -17,6 +14,7 @@
     position: relative;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     
 }
 
@@ -43,13 +41,9 @@
     text-decoration: none;
 }
 
-.news-card-container {
-    position: relative;
-    width: 700px;
+.new-card-container {
+    width: 100%;
     display: flex;
-   
-    border-radius: 20px;
-    height: 417px;
 }
 
 .newsletter {
