@@ -1,22 +1,23 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-import WebsiteCapComponent from './websiteСapСomponent.tsx'
-import FirstScreenComponent from './firstScreen.tsx'
-import ServiceDiscriptionComponent from './serviceDescription.tsx'
-import CompanyInfoComponent from './CompanyInfo.tsx'
-import NewsComnonent from './news.tsx'
-import FooterComponent from  './Footer.tsx'
+import WebsiteCapComponent from '../src/pages/HomePage/HomePage';
+import FirstScreenComponent from './pages/FirstScreenPage/FirstScreen';
+import ServiceDiscriptionComponent from './pages/ServiceDescriptionPage/Description';
+import CompanyInfoComponent from './pages/CompanyInfoPage/CompanyInfo';
+import NewsComponent from './pages/NewsPage/NewsStories';
+import FooterComponent from './pages/FooterPage/Footer';
 
-import './websiteCap.css'
+
+import './pages/HomePage/Home.scss'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <WebsiteCapComponent />
-    <FirstScreenComponent />
+    <FirstScreenComponent/>
     <ServiceDiscriptionComponent/>
     <CompanyInfoComponent/>
-    <NewsComnonent/>
+    <NewsComponent/>
     <FooterComponent/>
   </React.StrictMode>,
 )
