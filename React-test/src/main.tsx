@@ -13,11 +13,11 @@ import './pages/HomePage/Home.scss'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <WebsiteCapComponent />
-    <FirstScreenComponent/>
-    <ServiceDiscriptionComponent/>
-    <CompanyInfoComponent/>
-    <NewsComponent/>
-    <FooterComponent/>
+      <WebsiteCapComponent />
+      <FirstScreenComponent />
+      <ServiceDiscriptionComponent />
+      <CompanyInfoComponent />
+      <NewsComponent />
+      <FooterComponent />
   </React.StrictMode>,
 )

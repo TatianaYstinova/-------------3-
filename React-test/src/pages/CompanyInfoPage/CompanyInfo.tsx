@@ -2,12 +2,6 @@ import video from '../../assets/img/Морской порт Санкт-Пете�
 import './CompanyInfo.scss'
 import {RareRequestButton} from '../../conponents/CompanyInfoComponents/RateRequesr'
 
-const headerAndDescriptionRateRequestButton=[
-  {
-    header:'Запрос ставки и условий погрузочно-разгрузочных работ',
-    description:'Рассчитайте моментально стоимость полных портовых услуг в порту VISMA'
-  }
-]
 function CompanyInfoComponent() {
   return (
     <>
@@ -47,10 +41,7 @@ function CompanyInfoComponent() {
                 <source src={video} type="video/mp4"/>
               </video>
             </div>
-            <a className="rate-request-container" href="">
-              {headerAndDescriptionRateRequestButton.map((element)=><RareRequestButton header={element.header} description={element.description} />)}
-              
-            </a>
+             <RareRequestButton/>
           </div>
         </div>
       </div>

@@ -1,5 +1,3 @@
-
-
 $main-fill-color: #fff;
 $main-color-text: rgba(51, 51, 51, 1);
 $font-color-of-pictures: rgba(255, 255, 255, 1);
@@ -9,6 +7,13 @@ $fram-color-service: rgba(93, 183, 222, 1);
 
 * {
     box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 body {
