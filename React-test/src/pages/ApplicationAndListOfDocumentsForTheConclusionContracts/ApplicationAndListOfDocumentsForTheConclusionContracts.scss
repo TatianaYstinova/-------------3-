@@ -1,3 +1,40 @@
+@import '../../pages/HomePage/Home.scss';
+@import '../../pages/ServiceDescriptionPage/Service.scss';
+
 .container{
-    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 856px;
+    height: 1254px;
 }
+.header-container{
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    color: $color-service-font;
+    text-align: center;
+    width: 856px;
+    height: 112px;
+
+}
+.info-text-container-description{
+    position: relative;
+    top: 39px;
+}
+.headline,
+.listing
+{
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: $color-service-font;
+}
+.listing{
+ padding: 0 0 13px 0;
+}
+
+
