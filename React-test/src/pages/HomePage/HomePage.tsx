@@ -13,9 +13,7 @@ const navigationMenuLinkName = [
   },
   {
     title: 'Для клиентов',
-    onClick: () => {
-      document.location.pathname = '/another-path';
-    },
+    
   },
   {
     title: 'Новости'
@@ -41,7 +39,7 @@ function WebsiteCapComponent() {
       <div className='info-container'>
         <img className="logo" src={logo} alt="picture-logo" />
         <div className="menu-navigation">
-          {navigationMenuLinkName.map((element) => <MenuNavigationComponent title={element.title} onClick={element.onClick} />)}
+          {navigationMenuLinkName.map((element) => <MenuNavigationComponent title={element.title}  />)}
           <input type="text" className="input-with-icon " />
           <section>
             <select className="language ">

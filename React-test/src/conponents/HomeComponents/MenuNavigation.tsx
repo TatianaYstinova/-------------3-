@@ -1,19 +1,18 @@
+import { Link } from 'react-router-dom';
 import '../../pages/HomePage/Home.scss'
 
 interface MenuNavigationParams {
     title: string;
-    onClick?: () => void
+  
 }
 
 export function MenuNavigationComponent(parametrs: MenuNavigationParams) {
 
     return (
-        <a className="enumeration-menu-navigation" href="" onClick={(e) => {
-            e.preventDefault();
-
-            if (parametrs.onClick) {
-                parametrs.onClick();
-            }
-        }}>{parametrs.title}</a>
+        <Link to='another-path' className="enumeration-menu-navigation">Для клиентов</Link>
+        
+          
+        
     )
 }
+
